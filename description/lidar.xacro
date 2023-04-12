@@ -28,11 +28,11 @@
         <material>Gazebo/Red</material>
 	<sensor name="laser" type="ray">
             <pose> 0 0 0 0 0 0 </pose>
-            <visualize>true</visualize>
+            <visualize>false</visualize>
             <update_rate>5.5</update_rate>
             <ray> ...fill in next section... <scan>
                     <horizontal>
-                        <samples>2000</samples>
+                        <samples>600</samples>
                         <min_angle>-3.14</min_angle>
                         <max_angle>3.14</max_angle>
                     </horizontal>
